@@ -7,7 +7,7 @@ How to use
 
 Examples
 
-```bash
+```shell
 uname@computer:~/polynomial-brute-factor$ node main.js 1 5 5 -5 -6
 calculating x^4+5x^3+5x^2-5x-6 ...
 success
