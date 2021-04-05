@@ -7,8 +7,8 @@ How to use
 
 Examples
 
-```shell
-uname@computer:~/polynomial-brute-factor$ node main.js 1 5 5 -5 -6
+```cobol
+$ node main.js 1 5 5 -5 -6
 calculating x^4+5x^3+5x^2-5x-6 ...
 success
 (x-1)(1x^3+6x^2+11x+6)
