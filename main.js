@@ -1,5 +1,5 @@
 var args = process.argv.slice(2);
-console.log(args);
+//console.log(args);
 
 
 var format = function(n){
@@ -49,7 +49,7 @@ var construct = function(terms,k){
 
 
 var solvePolynomialBrute = function(terms){
-    var lt = terms.length-1;//largest term's x exponent
+    console.log("calculating "+formatTerms(terms)+" ...") 
     
     for(var i = 0; i < 11; i++){
         var result = construct(terms,i);
